@@ -1,0 +1,121 @@
+ion-searchbar{
+    color: black;
+}
+
+#search{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.uploadCard{
+    border: rgb(177, 38, 177) 3px solid;
+    border-radius: 10px;
+}
+
+ion-card-header{
+    color: black;
+}
+
+ion-img{
+    width:50%;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: auto;
+}
+
+.psTag{
+    background-color: blue;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    display: inline;
+}
+
+.xTag{
+    background-color: green;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    display: inline;
+}
+
+.nTag{
+    background-color: red;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    display: inline;
+}
+
+.pcTag{
+    background-color: black;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    display: inline;
+}
+
+.userProfile{
+    margin: auto;
+}
+
+.profilePic{
+    margin: auto;
+    font-size: 48px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+}
+
+.username{
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: inline;
+}
+
+.spacer{
+    margin: 75px;
+}
+
+.upload{
+    float: left;
+}
+
+.uploadButton{
+    margin-top: 10px;
+    margin-left: 35px;
+    color: white;
+}
+
+.delete{
+    display: block;
+    margin: auto;
+    width: 45%;
+    color: white;
+}
+
+ion-card-title{
+    color: black;
+    font-size: x-large;
+}
+
+ion-card-subtitle{
+    font-size: larger;
+    color: rgb(61, 56, 56);
+}
+
+p{
+    font-size: larger;
+    color: rgb(61, 56, 56);
+}

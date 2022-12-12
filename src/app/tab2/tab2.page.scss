@@ -1,0 +1,35 @@
+ion-card:last-child {
+    margin-bottom: 60px;
+}
+
+ion-card-header{
+    color: black;
+}
+
+.saleCard{
+    border: rgb(177, 38, 177) 3px solid;
+    border-radius: 10px;
+}
+
+.sale{
+    display: block;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+
+}
+
+ion-card-title{
+    color: black;
+    font-size: x-large;
+}
+
+ion-card-subtitle{
+    font-size: larger;
+    color: rgb(61, 56, 56);
+}
+
+p{
+    font-size: larger;
+    color: rgb(61, 56, 56);
+}

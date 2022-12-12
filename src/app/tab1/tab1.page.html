@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+  </ion-header>
+
+  <ion-card class="uploadCard">
+    <ion-card-header><h4 class="upload">Upload an Item for Sale?</h4>
+      <ion-button class="uploadButton" (click)='navigateToNewListing()'>
+        <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-card-header>
+    
+  </ion-card>
+
+ 
+
+  <div class="spacer"></div>
+  
+  <ion-item-group [ngStyle]="{ 'margin-top':'-50px'}" *ngIf="userLogged">
+    <ion-card *ngFor="let data of listings; let i = index">
+      <ion-card-header>
+        <ion-card-title>{{data.name}}</ion-card-title>
+        <ion-card-subtitle>{{data.description}}</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <p>${{data.cost}}</p>
+        <p>{{data.contact}}</p>
+        <ion-button class="delete" (click)='deleteListing(i)'>
+          Delete
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-item-group>
+
+</ion-content>

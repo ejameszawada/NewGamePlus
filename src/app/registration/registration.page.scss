@@ -1,0 +1,46 @@
+#logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    box-shadow:0px 0px 15px rgb(177, 38, 177);
+}
+
+.newGame{
+    font-size: 24pt;
+}
+
+.plus{
+    font-size: 28pt;
+    color: rgb(177, 38, 177);
+}
+
+ion-back-button{
+    display: block;
+    position: fixed;
+}
+
+.spacer{
+    margin: 75px;
+}
+
+.logIn{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    box-shadow:0px 0px 15px rgb(177, 38, 177);
+}
+
+.logButton{
+    margin-top: 50px;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    box-shadow: 0px 0px 15px rgb(177, 38, 177);
+}

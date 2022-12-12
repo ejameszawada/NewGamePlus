@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar id="logo">
+    <ion-buttons slot="start">
+      <ion-back-button color="primary" [routerLink]="['/login']"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      <span class="newGame">NewGame</span><span class="plus">+</span>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<div class="spacer"></div>
+
+<ion-content>
+  
+    
+      <ion-card>
+        <ion-card-title class="reset" color="primary">Reset Password</ion-card-title>
+  
+        <ion-card-subtitle class="sub">Please enter your email address to request a password reset.</ion-card-subtitle>
+  
+        <ion-item class="logIn">
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type="email" #passwordResetEmail required></ion-input>
+        </ion-item>
+  
+        <!-- Calling ForgotPassword from AuthService Api -->
+        <ion-button class="logButton" type="submit" 
+            (click)="authService.PasswordRecover(passwordResetEmail.value)" expand="block">Reset Password
+        </ion-button>
+        </ion-card>
+    
+ 
+
+</ion-content>

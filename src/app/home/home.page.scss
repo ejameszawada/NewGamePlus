@@ -1,0 +1,73 @@
+#logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    box-shadow:0px 0px 15px rgb(177, 38, 177);
+}
+
+.newGame{
+    font-size: 24pt;
+}
+
+.plus{
+    font-size: 28pt;
+    color: rgb(177, 38, 177);
+}
+
+.divider {
+  display: flex;
+  
+  &:before,
+  &:after {
+    content: "";
+    flex: 1;
+  }
+}
+
+.line {
+    font-size: large;
+    align-items: center;
+    margin: 1em -1em;
+    color: #a09d9d;
+  
+  &:before,
+  &:after {
+    height: 1px;
+    margin: 0 1em;
+  }
+} 
+
+.one-line {
+  &:before,
+  &:after {
+     background: #a09d9d;
+  }
+}
+
+.auth-form ion-grid,
+.auth-form ion-row {
+    height: 100%;
+    justify-content: center;
+}
+
+.already {
+    font-size: large;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.spacer{
+    margin: 75px;
+}
+
+ion-button{
+    display: block;
+    height: 10%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    box-shadow:0px 0px 15px rgb(177, 38, 177);
+}

@@ -1,0 +1,66 @@
+#logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    box-shadow:0px 0px 15px rgb(177, 38, 177);
+}
+
+.newGame{
+    font-size: 24pt;
+}
+
+.plus{
+    font-size: 28pt;
+    color: rgb(177, 38, 177);
+}
+
+ion-back-button{
+    display: block;
+    position: fixed;
+}
+
+.spacer{
+    margin: 50px;
+}
+
+ion-card{
+    box-shadow: 0px 0px 15px rgb(177, 38, 177);;
+}
+
+.logIn{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+    width: 65%;
+    box-shadow:0px 0px 15px rgb(177, 38, 177);
+}
+
+.logButton{
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    color: white;
+    box-shadow:0px 0px 15px rgb(177, 38, 177);
+}
+
+.reset{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sub{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

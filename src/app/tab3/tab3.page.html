@@ -1,0 +1,18 @@
+<ion-header translucent no-border>
+</ion-header>
+
+<ion-content fullscreen="true" slot="fixed">
+  <div class="card">
+    <div class="header">
+      <div class="avatar">
+        <img src="assets/images/controller.png" alt="">
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="spacer"></div>
+        <ion-item class="userInfo"><ion-label>Email: <h2>{{email}}</h2></ion-label></ion-item>
+        <br><br>
+        <ion-button class="logOut" type="submit" (click)="authService.SignOut()" expand="block">Logout</ion-button>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,37 @@
+<ion-header>
+<ion-toolbar id="logo">
+  <ion-buttons slot="start">
+    <ion-back-button color="primary" [routerLink]="['']"></ion-back-button>
+  </ion-buttons>
+  <ion-title>
+    <span class="newGame">NewGame</span><span class="plus">+</span>
+  </ion-title>
+</ion-toolbar>
+</ion-header>
+
+<div class="spacer"></div>
+
+<ion-content>
+  <form> 
+    <ion-item class="logIn" lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" #email required></ion-input>
+    </ion-item>
+    <br>
+    <ion-item class="logIn" lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" #password required></ion-input>
+    </ion-item>
+    <br>
+
+    <button class="forgot"[routerLink]="['/forgot']">Forgot Password?</button>
+
+    <ion-row>
+      <ion-col>
+        <ion-button class="logButton" type="submit" (click)="logIn(email, password)" expand="block">Login</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
+
+
