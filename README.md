@@ -1,6 +1,9 @@
 # NewGamePlus
 Project created for the mobile application development course at the University of Mississippi. The application was created for people to be able to sell and trade their gaming equipment
 
+# Hosting
+The application can be reached here: https://newgameplus.web.app
+
 # Login/SignUp
 ![image](https://user-images.githubusercontent.com/92044966/206991598-20f5be83-3b97-416c-8e3f-dbeb3d481e56.png)
 
